@@ -45,7 +45,7 @@ for market in markets:
     The code below has been added as an alternative to inserting the documents in raw format in MongoDB. 
     Reference to Markets.insert_stock(json_data).
     The raw JSON documents are stored in raw format in individual JSON files within the specified file path.
-    The filename for each document consist of the date whe latest data was extracted and the respective market code. 
+    The filename for each document consist of the date when latest data was extracted and the respective market code. 
     """
     # ------------------------------------------------------
     # Dump document to JSON file.
